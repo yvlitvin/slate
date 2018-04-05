@@ -4,13 +4,11 @@ title: AuthorizationService Api
 
 language_tabs: 
    - shell 
-   - javascript
  
 
 
 toc_footers: 
    - <a href='#'>Sign Up for a Developer Key</a> 
-   - <a href='https://github.com/lavkumarv'>Documentation Powered by lav</a> 
 
 includes: 
    - errors 
@@ -40,7 +38,7 @@ let api = kittn.authorize('yourAPIKey');
 **Version:** v1 
 
 
-# /PING
+# /Ping
 ```shell
 # With shell, you can just pass the correct header with each request
 curl "https://auth-dev.wirexapp.com/sso/Ping" -H "accept: application/json"
